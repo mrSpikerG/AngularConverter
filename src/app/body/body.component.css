@@ -1,0 +1,15 @@
+.body-converter{
+    background-color: #282b30;
+    height: 100%;
+}
+
+.converter-select, .converter-count{
+    padding: 12px 20px;
+    margin: 10px 20px;
+    background-color: #424549;
+    color: #fff;
+    font-size: 24px;
+    border-style: solid;
+    outline: none;
+}
+

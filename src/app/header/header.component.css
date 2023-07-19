@@ -1,0 +1,32 @@
+.header-container{
+    height: 100px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e2124;
+    color: #fff;
+}
+
+.currency-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 50px;
+}
+
+.exchange-variants{
+    display: flex;
+}
+
+.currency-title{
+    font-size: 23px;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+
+.exchange-separator{
+    margin: 0px 20px;
+  
+}

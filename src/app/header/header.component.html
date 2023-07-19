@@ -1,0 +1,17 @@
+<div class="header-container">
+    <div class="currency-container" *ngFor="let currency of currencyExchanges">
+        <p class="currency-title">{{currency.currencyCodeA==978?"EUR":"USD"}}</p>
+        <div class="exchange-variants">
+            <div>
+                <span>Buy</span>
+                {{currency.rateBuy}}
+            </div>
+            <span class="exchange-separator">|</span>
+            
+            <div>
+                {{currency.rateSell}}
+                <span>Sell</span>
+            </div>
+
+        </div>
+    </div>

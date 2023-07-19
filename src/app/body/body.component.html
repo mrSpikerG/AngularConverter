@@ -1,0 +1,20 @@
+<div class="body-converter">
+    <div>
+        <div class="converter-container">
+            <input [(ngModel)]="countA" (ngModelChange)="countByA($event)" type="number" placeholder="Count" class="converter-count" min="0"/>
+            <select [(ngModel)]="currencyA" (ngModelChange)="countByA($event)" class="converter-select">
+                <option [value]="uahISO">UAH</option>
+                <option [value]="usdISO">USD</option>
+                <option [value]="eurISO">EUR</option>
+            </select>
+        </div>
+        <div class="converter-container">
+            <input [(ngModel)]="countB" (ngModelChange)="countByB($event)" type="number" placeholder="Count" class="converter-count"  min="0"/>
+            <select [(ngModel)]="currencyB"  (ngModelChange)="countByB($event)" class="converter-select">
+                <option [value]="uahISO">UAH</option>
+                <option [value]="usdISO">USD</option>
+                <option [value]="eurISO">EUR</option>
+            </select>
+        </div>
+    </div>
+</div>
